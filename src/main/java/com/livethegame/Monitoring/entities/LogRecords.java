@@ -9,7 +9,7 @@ import javax.persistence.*;
 public class LogRecords {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
-    @SequenceGenerator(name = "hibernate_sequence", sequenceName = "hibernate_sequence_users", allocationSize = 1)
+    @SequenceGenerator(name = "hibernate_sequence", sequenceName = "hibernate_sequence", allocationSize = 1)
     private long id;
     private String service_name;
     private String service_id_value;

@@ -8,7 +8,7 @@ import java.time.ZoneId;
 public class Types {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
-    @SequenceGenerator(name = "hibernate_sequence", sequenceName = "hibernate_sequence_types", allocationSize = 1)
+    @SequenceGenerator(name = "hibernate_sequence", sequenceName = "hibernate_sequence", allocationSize = 1)
     private long id;
     private String name;
     private LocalDateTime date_created;
